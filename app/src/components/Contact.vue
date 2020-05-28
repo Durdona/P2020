@@ -221,22 +221,30 @@ export default {
         .addTo(formController);
 
       // Contact Me Footer Header  on Scrolling Event ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      let contactMeFooterHeaderTl = gsap.timeline();
-      gsap.set("#contact-footer h3 ", { autoAlpha: 1 });
-      contactMeFooterHeaderTl.from("#contact-footer h3", {
-        duration: 1,
-        opacity: 0,
-        scale: 0,
-        rotation: 180,
-        transformOrigin: "50% 50%"
-      });
-      // Scene for Contact Me Footer Header
       new ScrollMagic.Scene({
+        // scene for contact footer h3
         triggerElement: "#contact-footer h3",
         triggerHook: 1
       })
-        .setTween(contactMeFooterHeaderTl)
+        .setClassToggle("#contact-footer h3", "fade-in")
         .addTo(formController);
+
+      // let contactMeFooterHeaderTl = gsap.timeline();
+      // gsap.set("#contact-footer h3 ", { autoAlpha: 1 });
+      // contactMeFooterHeaderTl.from("#contact-footer h3", {
+      //   duration: 1,
+      //   opacity: 0,
+      //   scale: 0,
+      //   rotation: 180,
+      //   transformOrigin: "50% 50%"
+      // });
+      // // Scene for Contact Me Footer Header
+      // new ScrollMagic.Scene({
+      //   triggerElement: "#contact-footer h3",
+      //   triggerHook: 1
+      // })
+      //   .setTween(contactMeFooterHeaderTl)
+      //   .addTo(formController);
       // ===============================================================================================
       // Rollover Text Animation of Contact Form on Scrolling Event ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       let animText = gsap.timeline();
@@ -555,10 +563,16 @@ export default {
   align-items: center;
 }
 #contact-footer h3 {
-  visibility: hidden;
+  /* visibility: hidden; */
   padding: 3rem 0;
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 1s ease-out;
 }
-
+#contact-footer h3.fade-in {
+  opacity: 1;
+  transform: translateX(0);
+}
 /* ========================================================================================= */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Responsive Layout~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
