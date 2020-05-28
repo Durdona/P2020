@@ -1,29 +1,37 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>
-    </div>-->
-    <!-- <router-link to="/about">About</router-link> -->
-    <!-- <router-view /> -->
-
-    <!-- <router-link :to="{name: 'Home'}">Home</router-link>|
-    <router-link :to="{name: 'About'}">About</router-link>
-    <router-view />-->
     <Home />
     <About />
+    <Contact />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Home from "./components/Home";
 import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default {
   name: "App",
   components: {
     Home,
-    About
+    About,
+    Contact,
+    Footer
+  },
+  mounted: function() {
+    console.clear();
+    if (typeof console === "object") {
+      console.log(
+        "\n" +
+          "===============================================\n" +
+          "Hi there, fellow developer! Thanks for visiting.\n" +
+          "===============================================\n" +
+          "                                        Durdona\n"
+      );
+    }
   }
 };
 </script>
@@ -116,13 +124,5 @@ textarea:focus {
   outline: none;
   padding-left: 60px;
   transition: all 0.6s ease;
-}
-
-#app {
-  /* font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50; */
 }
 </style>

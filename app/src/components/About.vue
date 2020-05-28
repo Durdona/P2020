@@ -7,10 +7,7 @@
       </div>
       <div class="about_title">
         <h2>About Me</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dolores asperiores
-          eaque ipsa sit voluptatem?
-        </p>
+        <p>A highly talented self-taught Front-End Web Developer who is eager to be a great teammate and solid contributor.</p>
         <div id="skills">
           <h3>Skills I have</h3>
           <div class="skills-list">
@@ -388,7 +385,6 @@ export default {
 /* ========================================================================================= */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Section~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* ========================================================================================= */
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Section~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 section.about .container {
   background-color: rgba(2, 4, 41, 0.7);
 }
@@ -422,17 +418,6 @@ skills-list-b {
   /*  using it for animation */
   letter-spacing: 0;
 }
-/* #html,
-#css,
-#js,
-#react,
-#vue,
-#axios,
-#leaflet,
-#gsap {
-  color: blue;
-} */
-
 section.about .about_pages div {
   height: 30vh;
   padding: 0 1rem 0;
@@ -627,7 +612,6 @@ section.about .about_pages .img-figure:hover i {
     transform: translateY(40px);
   }
 }
-
 /* ========================================================================================= */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Tablet other sizes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (min-width: 599px) and (max-width: 960) {
@@ -713,7 +697,6 @@ section.about .about_pages .img-figure:hover i {
     display: flex;
     /* position: relative; */
   }
-
   section.about .about_title {
     width: 50%;
     height: 100vh;
@@ -767,6 +750,10 @@ section.about .about_pages .img-figure:hover i {
     opacity: 0;
     top: 50%;
     transform: translateY(40px);
+  }
+  section.about .vintage_corner_top {
+    position: absolute;
+    left: 0;
   }
 }
 </style>

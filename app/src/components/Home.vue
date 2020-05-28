@@ -73,7 +73,6 @@
 
 <script>
 // @ is an alias to /src
-
 import Menu from "@/components/Menu.vue";
 import { gsap } from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
@@ -360,12 +359,9 @@ export default {
 .vintage_corner_right {
   position: absolute;
   bottom: 0;
-  right: 2%;
+  right: 3%;
 }
-.vintage_corner_top {
-  position: absolute;
-  left: 1%;
-}
+
 /* ========================================================================================= */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header Content~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .container .header-content {
@@ -617,6 +613,12 @@ export default {
     left: 10%;
     width: 12rem;
     opacity: 0.2;
+  }
+
+  .vintage_corner_right {
+    position: absolute;
+    bottom: 0;
+    right: 1.2%;
   }
 }
 </style>
