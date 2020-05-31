@@ -10,8 +10,11 @@
           <a href="https://www.facebook.com/durdona.abdusamikovna" target="_blank">
             <i class="fab fa-facebook-f"></i>
           </a>
-          <a href="https://stackoverflow.com/users/4930023/durdona-abdusamikovna?tab=topactivity">
-            <i class="fab fa-stack-overflow" target="_blank"></i>
+          <a
+            href="https://stackoverflow.com/users/4930023/durdona-abdusamikovna?tab=topactivity"
+            target="_blank"
+          >
+            <i class="fab fa-stack-overflow"></i>
           </a>
           <a href="https://github.com/Durdona" target="_blank">
             <i class="fab fa-github"></i>

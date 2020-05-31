@@ -64,16 +64,23 @@
 
         <div class="project project3">
           <figure class="img-figure">
-            <img src="../assets/img/responsive.png" alt />
+            <img src="../assets/img/projectMap.png" alt />
             <figcaption>
-              <h3>Project Three</h3>
-              <p>
-                Lorem ipsum, elit. Rerum quia suscipit earum pariatur quo
-                .
-              </p>
+              <h3>
+                Map based Targeting Web Component
+                <i class="far fa-calendar"></i>
+              </h3>
+              <p>Built with Vue.JS, AXIOS, Leaflet.JS, GeoJSON, Stroybook, Bulma CSS</p>
               <div class="icons">
-                <i class="fab fa-github"></i>
-                <i class="fab fa-codepen"></i>
+                <a href="https://github.com/Durdona/Vue.JS-Component.git" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://pdfhost.io/v/lVYeFYOct_RadialSearchTab_GeoJSONSearchTab_mergedpdf.pdf"
+                  target="_blank"
+                >
+                  <i class="fas fa-globe"></i>
+                </a>
               </div>
             </figcaption>
           </figure>
@@ -85,12 +92,16 @@
             <figcaption>
               <h3>
                 Portfolio
-                <i class="far fa-calendar-alt"></i>
+                <i class="far fa-calendar"></i>
               </h3>
-              <p>Fully Responsive. Coded in Vue.JS, HTML5, CSS3, GSAP, Vanilla JavaScript</p>
+              <p>Fully Responsive. Built with Vue.JS, HTML5, CSS3, Vanilla JavaScript, GSAP, SVG</p>
               <div class="icons">
-                <i class="fab fa-github"></i>
-                <i class="fab fa-codepen"></i>
+                <a href="https://github.com/Durdona/P2020.git" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" target="_blank">
+                  <i class="fas fa-globe"></i>
+                </a>
               </div>
             </figcaption>
           </figure>
@@ -478,18 +489,20 @@ section.about .about_pages .img-figure .icons {
   width: 100px;
   margin-bottom: 1rem;
 }
-section.about .about_pages figcaption h3 .fa-calendar-alt {
+section.about .about_pages figcaption h3 .fa-calendar {
   color: khaki;
   font-weight: lighter;
   padding-left: 10px;
+  padding-bottom: 5px;
 }
-section.about .about_pages figcaption h3 .fa-calendar-alt:after {
+section.about .about_pages figcaption h3 .fa-calendar:after {
   content: "2020";
   padding-left: 10px;
   color: khaki;
 }
 section.about .about_pages .img-figure .icons .fa-github:hover,
-section.about .about_pages .img-figure .icons .fa-codepen:hover {
+section.about .about_pages .img-figure .icons .fa-codepen:hover,
+section.about .about_pages .img-figure .icons .fa-globe:hover {
   color: black;
   background-color: white;
   cursor: pointer;
@@ -754,6 +767,16 @@ section.about .about_pages .img-figure:hover i {
   section.about .vintage_corner_top {
     position: absolute;
     left: 0;
+  }
+
+  .icons .fa-globe,
+  .fab .fa-github {
+    font-size: 1.5rem;
+  }
+  section.about .about_pages .img-figure figcaption i {
+    font-size: 1.6rem;
+    margin-right: 15px;
+    color: khaki;
   }
 }
 </style>
