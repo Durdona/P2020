@@ -1,0 +1,19 @@
+{
+	"name": "p2020",
+	"version": "1.0.0",
+	"description": "Portfolio ShowCase 2020",
+	"main": "index.js",
+	"scripts": {
+		"test": "Will be using Jest.JS"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Durdona/P2020.git"
+	},
+	"author": "Durdona",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Durdona/P2020/issues"
+	},
+	"homepage": "https://github.com/Durdona/P2020#readme"
+}
