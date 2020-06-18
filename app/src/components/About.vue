@@ -30,15 +30,14 @@
       <div class="about_pages" id="projects">
         <div class="project project1">
           <figure class="img-figure">
-            <img src="../assets/img/responsive.png" alt />
+            <img src="../assets/img/projectTodo.png" alt />
             <figcaption>
-              <h3>Project One</h3>
-              <p>
-                Lorem ipsum, elit. Rerum quia suscipit earum pariatur quo
-                .
-              </p>
+              <h3>Todo List App</h3>
+              <p>Built in React.JS Features: Toggling Completion on text and checkbox, Editing, Deleting, Custom input validation, Number of active Todos</p>
               <div class="icons">
-                <i class="fab fa-github"></i>
+                <a href="https://github.com/Durdona/App-Todo-React.JS" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
                 <i class="fab fa-codepen"></i>
               </div>
             </figcaption>
@@ -47,7 +46,7 @@
 
         <div class="project project2">
           <figure class="img-figure">
-            <img src="../assets/img/responsive.png" alt />
+            <img src="../assets/img/projectPortfolio.png" alt />
             <figcaption>
               <h3>Project Two</h3>
               <p>
@@ -70,7 +69,7 @@
                 Map based Targeting Web Component
                 <i class="far fa-calendar"></i>
               </h3>
-              <p>Built with Vue.JS, AXIOS, Leaflet.JS, GeoJSON, Stroybook, Bulma CSS</p>
+              <p>Built in Vue.JS, AXIOS, Leaflet.JS, GeoJSON, Stroybook, Bulma CSS</p>
               <div class="icons">
                 <a href="https://github.com/Durdona/Vue.JS-Component.git" target="_blank">
                   <i class="fab fa-github"></i>
@@ -88,13 +87,13 @@
 
         <div class="project project4">
           <figure class="img-figure">
-            <img src="../assets/img/responsive.png" alt="showcase" />
+            <img src="../assets/img/projectPortfolio.png" alt="showcase" />
             <figcaption>
               <h3>
                 Portfolio
                 <i class="far fa-calendar"></i>
               </h3>
-              <p>Fully Responsive. Built with Vue.JS, HTML5, CSS3, Vanilla JavaScript, GSAP, SVG</p>
+              <p>Fully Responsive. Built in Vue.JS, HTML5, CSS3, Vanilla JavaScript, GSAP, SVG</p>
               <div class="icons">
                 <a href="https://github.com/Durdona/P2020.git" target="_blank">
                   <i class="fab fa-github"></i>

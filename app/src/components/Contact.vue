@@ -29,12 +29,12 @@
             </div>
             <div class="contact-icons-container">
               <div class="contact-me-icons">
-                <a href="tel:+717-742-0772">
+                <a href="tel:+650-741-5085">
                   <!-- <i class="fas fa-mobile-alt"></i> -->
                   <i class="fas fa-phone-alt"></i>
                 </a>
                 <h3>Phone</h3>
-                <p class="phone-text">(717) 742-0772</p>
+                <p class="phone-text">(650) 741-5085</p>
               </div>
               <div class="contact-me-icons">
                 <a href="mailto:code4hacking@gmail.com">
@@ -57,7 +57,13 @@
             <div class="top_ornament_vintage">
               <img src="../assets/img/top_form_ornament.svg" alt />
             </div>
-            <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+            <form
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              data-netlify-recaptcha="true"
+              autocomplete="off"
+            >
               <p class="text-field text-name">
                 <input
                   type="text"
@@ -95,10 +101,12 @@
               </p>
               <p class="text-field text-phone">
                 <input
-                  type="text"
+                  type="tel"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                   class="text-input phone-input"
-                  placeholder="Phone Number"
+                  placeholder="Format: 123-456-6789"
                   name="phone"
+                  required
                 />
                 <label for="phone">
                   <i class="fas fa-phone-alt phone-icon"></i>

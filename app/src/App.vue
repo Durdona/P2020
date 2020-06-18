@@ -52,6 +52,8 @@ html {
 html,
 body {
   font-family: "Montserrat", sans-serif;
+   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   letter-spacing: 0.5px;
   font-size: 1rem;
   line-height: 1.4;
