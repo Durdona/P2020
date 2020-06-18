@@ -48,7 +48,7 @@
           <figure class="img-figure">
             <img src="../assets/img/projectPortfolio.png" alt />
             <figcaption>
-              <h3>Project Two</h3>
+              <h3>GitHub Finder</h3>
               <p>
                 Lorem ipsum, elit. Rerum quia suscipit earum pariatur quo
                 .
