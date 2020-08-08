@@ -27,7 +27,7 @@ export default {
       console.log(
         "\n" +
           "===============================================\n" +
-          "Hi there, fellow developer! Thanks for visiting.\n" +
+          "The greatest gift that we can give to someone is our attention and time. Thank you for gifting me yours..\n" +
           "===============================================\n" +
           "                                        Durdona\n"
       );
@@ -52,7 +52,7 @@ html {
 html,
 body {
   font-family: "Montserrat", sans-serif;
-   -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 0.5px;
   font-size: 1rem;
